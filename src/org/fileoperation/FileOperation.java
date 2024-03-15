@@ -14,9 +14,9 @@ public static void main(String[] args) throws IOException {
 	//System.out.println(b);
 	//boolean canRead = f.canRead();
 	//System.out.println(canRead);
-	//boolean canWrite = f.canWrite();
-	//System.out.println(canWrite);\
-	String[] list = f.list();
+	boolean canWrite = f.canWrite();
+	System.out.println(canWrite);
+	//String[] list = f.list();
 	//for (String string : list) {
 		//System.out.println(string);
 	//}
